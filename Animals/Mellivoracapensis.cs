@@ -5,7 +5,6 @@ namespace Zoolandia.Animals
     public class Mellivoracapensis: Animal
     {
         public string temper {get; set;}
-        public string petname {get;set;}
         public Mellivoracapensis ()
         {
             this.petname = "Stripe";

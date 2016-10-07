@@ -8,10 +8,12 @@ namespace Zoolandia.Animals
 
         public int lifespan {get; set;}
 
+        public string mainweapon {get; set;}
         public Rana ()
         {
             this.lifespan = 10;
             this.habitat = null;
+            this.mainweapon = null;
         }
     }
 }

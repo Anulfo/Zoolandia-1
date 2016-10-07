@@ -8,10 +8,7 @@ namespace Zoolandia.Animals
 
         public int lifespan {get; set;}
 
-        public Pandinus ()
-        {
-            this.lifespan = 10;
-            this.habitat = null;
-        }
+        public string mainweapon {get; set;}
+
     }
 }
