@@ -9,6 +9,5 @@ namespace Zoolandia.Animals
         public int lifespan {get; set;}
 
         public string mainweapon {get; set;}
-
     }
 }

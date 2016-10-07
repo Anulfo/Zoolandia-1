@@ -33,8 +33,6 @@ namespace Zoolandia
 
             Felismargarita SandCat = new Felismargarita();
             Console.WriteLine (SandCat.description());
-
-
         }
     }    
 }
