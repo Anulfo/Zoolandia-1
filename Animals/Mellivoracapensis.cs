@@ -10,6 +10,10 @@ namespace Zoolandia.Animals
         {
             this.petname = "Stripe";
         }
+        public Mellivoracapensis (string petname)
+        {
+            this.petname = petname;
+        }
         public override string description()
         {
             return $"This is {this.petname} \n{base.description()}, also is described as a {this.temper}";

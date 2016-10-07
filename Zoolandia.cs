@@ -14,6 +14,14 @@ namespace Zoolandia
             HoneyBadger.height = " 50 inches ";
             HoneyBadger.cost = 7000;
             Console.WriteLine (HoneyBadger.description());
+
+            Mellivoracapensis MyBadger = new Mellivoracapensis("Anulfo");
+            MyBadger.diet = "fresh baby Koalas";
+            MyBadger.temper = "always hungry bastard";
+            MyBadger.name = "Honey Badger";
+            MyBadger.height = " 3 feet ";
+            MyBadger.cost = 3500;
+            Console.WriteLine (MyBadger.description()) ;
             
             Leoparduspardalis Ocelot = new Leoparduspardalis();
             Ocelot.diet = "other animals and your face";
