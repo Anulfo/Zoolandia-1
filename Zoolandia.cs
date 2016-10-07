@@ -21,7 +21,21 @@ namespace Zoolandia
             MyBadger.name = "Honey Badger";
             MyBadger.height = " 3 feet ";
             MyBadger.cost = 3500;
-            Console.WriteLine (MyBadger.description()) ;
+            Console.WriteLine (MyBadger.description());
+
+            Mellivoracapensis ExpensiveBadger = new Mellivoracapensis(500000);
+            ExpensiveBadger.diet = "fresh baby Koalas";
+            ExpensiveBadger.temper = "always hungry bastard";
+            ExpensiveBadger.name = "Honey Badger";
+            ExpensiveBadger.height = " 3 feet ";
+            Console.WriteLine (ExpensiveBadger.description());
+
+            Mellivoracapensis CustomBadger = new Mellivoracapensis(10, "Fluffy");
+            CustomBadger.diet = "fresh baby Koalas";
+            CustomBadger.temper = "always hungry bastard";
+            CustomBadger.name = "Honey Badger";
+            CustomBadger.height = " 3 feet ";
+            Console.WriteLine (CustomBadger.description());
             
             Leoparduspardalis Ocelot = new Leoparduspardalis();
             Ocelot.diet = "other animals and your face";

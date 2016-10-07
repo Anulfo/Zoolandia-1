@@ -14,6 +14,15 @@ namespace Zoolandia.Animals
         {
             this.petname = petname;
         }
+        public Mellivoracapensis (int cost)
+        {
+            this.cost = cost;
+        }
+        public Mellivoracapensis (int cost, string petname)
+        {
+            this.petname = petname;
+            this.cost = cost;
+        }
         public override string description()
         {
             return $"This is {this.petname} \n{base.description()}, also is described as a {this.temper}";
