@@ -2,9 +2,17 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    public class Mellivoracapensis: Animals
+    public class Mellivoracapensis: Animal
     {
-        public string diet {get; set;}
         public string temper {get; set;}
+        public string petname {get;set;}
+        public Mellivoracapensis ()
+        {
+            this.petname = "Stripe";
+        }
+        public override string description()
+        {
+            return $"This is {this.petname} \n{base.description()}, also is described as a {this.temper}";
+        }
     }
 }
