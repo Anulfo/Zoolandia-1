@@ -1,14 +1,18 @@
 using System;
-
 namespace Zoolandia.Animals
 {
     public class Mellivoracapensis: Animal
     {
         public string temper {get; set;}
-        public string petname {get;set;}
+
         public Mellivoracapensis ()
         {
             this.petname = "Stripe";
+            this.cost = 7000;
+            this.diet = "whatever comes across his way";
+            this.temper = "vicious bastard";
+            this.name = " Honey Badger";
+            this.height = " 50 inches ";
         }
         public Mellivoracapensis (string petname)
         {
