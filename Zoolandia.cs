@@ -7,13 +7,20 @@ namespace Zoolandia
     {
         public static void Main(string[] args) 
         {   
+
+            
+            string petname=args.Length > 0?args[0]: null;
+            if (petname == null)
+            {
             Mellivoracapensis HoneyBadger = new Mellivoracapensis();
-            HoneyBadger.diet = "whatever comes across his way";
-            HoneyBadger.temper = "vicious bastard";
-            HoneyBadger.name = " Honey Badger";
-            HoneyBadger.height = " 50 inches ";
-            HoneyBadger.cost = 7000;
             Console.WriteLine (HoneyBadger.description());
+            }
+            else if (petname != String.Empty)
+            {
+            Mellivoracapensis HoneyBadger = new Mellivoracapensis(petname);
+            Console.WriteLine (HoneyBadger.description());
+            }
+
             
             Leoparduspardalis Ocelot = new Leoparduspardalis();
             Ocelot.diet = "other animals and your face";
@@ -33,6 +40,9 @@ namespace Zoolandia
 
             Felismargarita SandCat = new Felismargarita();
             Console.WriteLine (SandCat.description());
+
+            Felisnegripes BlackCat = new Felisnegripes();
+            Console.WriteLine (BlackCat.description());
         }
     }    
 }

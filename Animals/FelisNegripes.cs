@@ -17,7 +17,7 @@ namespace Zoolandia.Animals
         }
         public override string description()
         {
-            return $"This is {this.petname} \n{base.description()}, it's natural habitat is {this.habitat}, can live till {this.lifespan}, it's main weapon is {this.mainweapon} ";
+            return $"This is {this.petname} \n{base.description()}, it's natural habitat is {this.habitat}, can live till {this.lifespan} years, it's main weapon is {this.mainweapon} ";
         }
     }
 }

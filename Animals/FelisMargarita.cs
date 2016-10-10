@@ -15,6 +15,12 @@ namespace Zoolandia.Animals
             this.mainweapon = "Hard Bite";
             this.petname = "Whiskers";
         }
+
+        public Felismargarita(int cost, string petname)
+        {
+            this.cost = cost;
+            this.petname = petname;
+        }
         public override string description()
         {
             return $"This is {this.petname} \n{base.description()}, it's natural habitat is {this.habitat}, can live till {this.lifespan}, it's main weapon is {this.mainweapon} ";
