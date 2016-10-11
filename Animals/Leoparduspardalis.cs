@@ -1,6 +1,6 @@
 namespace Zoolandia.Animals
 {
-    public class Leoparduspardalis: Animal
+    public class Leoparduspardalis: Felis
     {
         public string furcolor {get; set;}
         public Leoparduspardalis ()

@@ -14,6 +14,8 @@ namespace Zoolandia.Animals
             this.lifespan = 13;
             this.mainweapon = "Hard Bite";
             this.petname = "Whiskers";
+            this.genus = new Genus("Felis");
+            this.species = new Species("margarita");
         }
 
         public Felismargarita(int cost, string petname)
@@ -21,9 +23,10 @@ namespace Zoolandia.Animals
             this.cost = cost;
             this.petname = petname;
         }
+        
         public override string description()
         {
-            return $"This is {this.petname} \n{base.description()}, it's natural habitat is {this.habitat}, can live till {this.lifespan}, it's main weapon is {this.mainweapon} ";
+            return $"This is {this.petname} \n{base.description()}, it's natural habitat is {this.habitat}, can live till {this.lifespan} years old, it's main weapon is {this.mainweapon}. It's scientific name is {this.genus.genusname} {this.species.speciename}";
         }
     }
 }
