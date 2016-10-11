@@ -49,6 +49,12 @@ namespace Zoolandia
             
             Pandinusmagretti EthiopianScorpion = new Pandinusmagretti();
             Console.WriteLine (EthiopianScorpion.description());
+            
+            Ranaaurora RedLeggedFrog = new Ranaaurora();
+            Console.WriteLine (RedLeggedFrog.description());
+            
+            Ranaamurensis SiberianFrog = new Ranaamurensis();
+            Console.WriteLine (SiberianFrog.description());
         }
     }    
 }

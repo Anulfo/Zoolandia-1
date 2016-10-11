@@ -7,10 +7,10 @@ namespace Zoolandia.Animals
         public Ranaaurora() 
         {
             this.name = "Northern Red Legged Frog";
-            this.height = "2";
-            this.diet = "Beattles";
+            this.height = "2 inches";
+            this.diet = "insects";
             this.cost = 15000;
-            this.habitat = "North Africa";
+            this.habitat = "North America";
             this.lifespan = 5;
             this.mainweapon = "Projectile Tongue";
             this.petname = "Wrinkly";

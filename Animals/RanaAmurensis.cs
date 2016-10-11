@@ -6,13 +6,13 @@ namespace Zoolandia.Animals
     {
         public Ranaamurensis() 
         {
-            this.name = "Northern Red Legged Frog";
-            this.height = "2";
+            this.name = "Siberian Wood Frog";
+            this.height = "4 inches";
             this.diet = "Beattles";
             this.cost = 15000;
-            this.habitat = "North Africa";
-            this.lifespan = 5;
-            this.mainweapon = "Projectile Tongue";
+            this.habitat = "Northern Asia";
+            this.lifespan = 3;
+            this.mainweapon = "Hibernation";
             this.petname = "Wrinkly";
             this.genus = new Genus("Rana");
             this.species = new Species("amurensis");
