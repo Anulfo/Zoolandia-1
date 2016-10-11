@@ -14,10 +14,12 @@ namespace Zoolandia.Animals
             this.lifespan = 5;
             this.mainweapon = "Projectile Tongue";
             this.petname = "Wrinkly";
+            this.genus = new Genus("Rana");
+            this.species = new Species("aurora");
         }
         public override string description()
         {
-            return $"This is {this.petname} \n{base.description()}, it's natural habitat is {this.habitat}, can live till {this.lifespan}, it's main weapon is {this.mainweapon} ";
+            return $"This is {this.petname} \n{base.description()}, it's natural habitat is {this.habitat}, can live till {this.lifespan} years old, it's main weapon is {this.mainweapon}. It's scientific name is {this.genus.genusname} {this.species.speciename}";
         }
     }
 }

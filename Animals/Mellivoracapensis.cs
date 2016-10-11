@@ -7,12 +7,12 @@ namespace Zoolandia.Animals
 
         public Mellivoracapensis ()
         {
-            this.petname = "Stripe";
-            this.cost = 7000;
-            this.diet = "whatever comes across his way";
-            this.temper = "vicious bastard";
-            this.name = " Honey Badger";
-            this.height = " 50 inches ";
+            petname = "Stripe";
+            cost = 7000;
+            diet = "whatever comes across his way";
+            temper = "vicious bastard";
+            name = " Honey Badger";
+            height = " 50 inches ";
         }
         public Mellivoracapensis (string petname)
         {
