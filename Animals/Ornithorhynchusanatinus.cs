@@ -6,7 +6,6 @@ namespace Zoolandia.Animals
     {
         public string sound {get; set;}
 
-        public string petname {get;set;}
         public Ornithorhynchusanatinus ()
         {
             this.petname = "Duck Duck";

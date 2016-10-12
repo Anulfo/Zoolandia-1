@@ -9,17 +9,17 @@ namespace Zoolandia
         {   
 
             
-            string petname=args.Length > 0?args[0]: null;
-            if (petname == null)
-            {
-            Mellivoracapensis HoneyBadger = new Mellivoracapensis();
-            Console.WriteLine (HoneyBadger.description());
-            }
-            else if (petname != String.Empty)
-            {
-            Mellivoracapensis HoneyBadger = new Mellivoracapensis(petname);
-            Console.WriteLine (HoneyBadger.description());
-            }
+            // string petname=args.Length > 0?args[0]: null;
+            // if (petname == null)
+            // {
+            // Mellivoracapensis HoneyBadger = new Mellivoracapensis();
+            // Console.WriteLine (HoneyBadger.description());
+            // }
+            // else if (petname != String.Empty)
+            // {
+            // Mellivoracapensis HoneyBadger = new Mellivoracapensis(petname);
+            // Console.WriteLine (HoneyBadger.description());
+            // }
 
             
             // Leoparduspardalis Ocelot = new Leoparduspardalis();
@@ -40,9 +40,11 @@ namespace Zoolandia
 
             Felismargarita SandCat = new Felismargarita();
             Console.WriteLine (SandCat.description());
+            SandCat.claw();
 
             Felisnegripes BlackCat = new Felisnegripes();
             Console.WriteLine (BlackCat.description());
+            BlackCat.claw();
             
             Pandinusimperator ImperatorScorpion = new Pandinusimperator();
             Console.WriteLine (ImperatorScorpion.description());
