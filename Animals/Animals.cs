@@ -11,8 +11,6 @@ namespace Zoolandia.Animals
         public int cost {get; set;}
         public Genus genus {get; set;}
         public Species species {get;set;}
-        public string habitat{get;set;}
-        public int lifespan {get; set;}
 
 
         public virtual string description()

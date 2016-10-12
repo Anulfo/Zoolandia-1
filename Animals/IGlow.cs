@@ -1,0 +1,4 @@
+interface IUVGlow
+{
+    void UVGlow();
+}
