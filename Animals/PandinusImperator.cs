@@ -2,8 +2,12 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    public class Pandinusimperator: Pandinus
+    public class Pandinusimperator: Pandinus, IUVGlow
     {
+        public void UVGlow ()
+        {
+            Console.Write($"This type of Scorpion can glow in the Dark\n");
+        }
         public Pandinusimperator()
         {
             this.name = "Imperator Scorpion";

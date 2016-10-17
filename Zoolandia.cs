@@ -1,5 +1,6 @@
 using System;
 using Zoolandia.Animals;
+using Zoolandia.Habitats;
 
 namespace Zoolandia
 {
@@ -38,25 +39,38 @@ namespace Zoolandia
             // Platypus.cost = 15000;
             // Console.WriteLine (Platypus.description());
 
-            Felismargarita SandCat = new Felismargarita();
-            Console.WriteLine (SandCat.description());
-            SandCat.claw();
+            // Felismargarita SandCat = new Felismargarita();
+            // Console.WriteLine (SandCat.description());
+            // SandCat.claw();
 
-            Felisnegripes BlackCat = new Felisnegripes();
-            Console.WriteLine (BlackCat.description());
-            BlackCat.claw();
+            // Felisnegripes BlackCat = new Felisnegripes();
+            // Console.WriteLine (BlackCat.description());
+            // BlackCat.claw();
             
-            Pandinusimperator ImperatorScorpion = new Pandinusimperator();
-            Console.WriteLine (ImperatorScorpion.description());
+            // Pandinusimperator ImperatorScorpion = new Pandinusimperator();
+            // Console.WriteLine (ImperatorScorpion.description());
+            // ImperatorScorpion.UVGlow();
             
-            Pandinusmagretti EthiopianScorpion = new Pandinusmagretti();
-            Console.WriteLine (EthiopianScorpion.description());
+            // Pandinusmagretti EthiopianScorpion = new Pandinusmagretti();
+            // Console.WriteLine (EthiopianScorpion.description());
+            // EthiopianScorpion.sting();
             
             Ranaaurora RedLeggedFrog = new Ranaaurora();
-            Console.WriteLine (RedLeggedFrog.description());
+            // Console.WriteLine (RedLeggedFrog.description());
+            // RedLeggedFrog.amphibious();
             
             Ranaamurensis SiberianFrog = new Ranaamurensis();
-            Console.WriteLine (SiberianFrog.description());
+            // Console.WriteLine (SiberianFrog.description());
+            
+            Swamp frogland = new Swamp();
+            frogland.inhabitants.Add(RedLeggedFrog);
+            frogland.inhabitants.Add(SiberianFrog);
+            Console.WriteLine($"In Zoolandia we have a {frogland.name}\n{frogland.description()}");
+            frogland.enviroregulator();
+            foreach (Animal animal in frogland.inhabitants)
+            {
+                Console.WriteLine($"Here we have {animal.genus.genusname}{animal.species.speciename} better known as {animal.name}");
+            }
         }
     }    
 }

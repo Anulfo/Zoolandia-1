@@ -2,8 +2,12 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    public class Pandinusmagretti: Pandinus
+    public class Pandinusmagretti: Pandinus, ISting
     {
+         public void sting()
+        {
+            Console.Write($"This animal has venomous sting\n");
+        }
          public Pandinusmagretti()
         {
             this.name = "Ethiopian Scorpion";
@@ -20,6 +24,6 @@ namespace Zoolandia.Animals
         public override string description()
         {
             return $"This is {this.petname} \n{base.description()}, it's natural habitat is {this.habitat}, can live till {this.lifespan} years old, it's main weapon is {this.mainweapon}. It's scientific name is {this.genus.genusname} {this.species.speciename}";
-        }
+        }  
     }
 }
